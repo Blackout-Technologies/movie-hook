@@ -1,0 +1,40 @@
+{
+    "name": "movies-hook",
+    "title": "Movies",
+    "description": "Dialogs about movies.",
+    "version": "1.0.0",
+    "nexusVersion": "2.0.0",
+    "cover": "movies-hook.png",
+
+    "keywords": [
+        "Movies", "Artificial Intelligence", "Pop culture"
+    ],
+
+    "license": "See attached LICENSE file",
+    "author": {
+        "name": "Blackout Technologies",
+        "url": "https://blackout.ai/",
+        "mail": "dev@blackout.ai"
+    },
+
+    "module": "hooks",
+    "sync": {
+        "mf": [
+            {
+                "name": "arkus"
+            }
+        ]
+    },
+
+    "dependencies": {
+        "find-root": "1.1.0",
+        "chalk": "*",
+        "nexus-hook": "0.6.2",
+        "request": "*",
+        "request-promise": "*",
+        "string-similarity": "*",
+        "cheerio": "*",
+        "striptags": "*",
+        "html-entities": "*"
+    }
+}

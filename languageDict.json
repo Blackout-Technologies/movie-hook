@@ -1,0 +1,10 @@
+{
+    "de-DE": {
+        "fallback": "Ich habe keine informationen zu deiner Suche gefunden",
+        "movieAnswer": "Ich weiß ganz viel über $movie, zum Beiepiel dass es im Jahr $year gedreht wurde und ein IMDB rading von $rating hat."
+    },
+    "en-US": {
+        "fallback": "Sorry, I can't find anything.",
+        "movieAnswer": "I know a lot about $movie. For example it was filmed in $year and has an IMDB rading of $rating."
+    }
+}
