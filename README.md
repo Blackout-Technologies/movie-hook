@@ -7,7 +7,16 @@
 |Requires Hook System|>=0.6.2|
 |State|`BETA`|
 
+# Nexus Hook documentation
+
+You can find the full documentation of the current version of the nexus-hook system here:
+https://github.com/Blackout-Technologies/nexus-hook
+
+# Usage
+
 This hook functions as one of the demo hooks to showcase possibilities that the Blackout Nexus hook system offers.
+
+# Examples
 
 After you have successfully installed the hook into your nexusUi, you will be able to start dialogs about movies:
 ![Screenshot1](/img/screenshot1.png?raw=true "Dialog")
