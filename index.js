@@ -62,24 +62,5 @@ module.exports = class WeatherHook extends Hook {
                 });
             }
         }
-
-        /*if( cityLookup == "" ){
-            complete({
-                answer: this.captions.get('fallback'),
-                platform: {}
-            });
-        }else{
-            this.request('GET', 'http://api.openweathermap.org/data/2.5/weather?q='+cityLookup+'&units=metric&appid=b482d0ee6286a5bd9babaa1ec1e56e4b', {}, (resp) => {
-                var answer = this.captions.get('weatherAnswer');
-                answer = answer.replace('$city', cityLookup);
-                answer = answer.replace('$temperature', resp.main.temp);
-                answer = answer.replace('$weather', resp.weather[0].main);
-
-                complete({
-                    answer: answer,
-                    platform: {}
-                });
-            });
-        }*/
     }
 }
