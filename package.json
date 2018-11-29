@@ -5,18 +5,17 @@
     "version": "1.0.0",
     "nexusVersion": "2.0.0",
     "cover": "movies-hook.png",
-
     "keywords": [
-        "Movies", "Artificial Intelligence", "Pop culture"
+        "Movies",
+        "Artificial Intelligence",
+        "Pop culture"
     ],
-
     "license": "See attached LICENSE file",
     "author": {
         "name": "Blackout Technologies",
         "url": "https://blackout.ai/",
         "mail": "dev@blackout.ai"
     },
-
     "module": "hooks",
     "sync": {
         "mf": [
@@ -25,11 +24,10 @@
             }
         ]
     },
-
     "dependencies": {
         "find-root": "1.1.0",
         "chalk": "*",
-        "nexus-hook": "0.6.2",
+        "nexus-hook": "0.6.8",
         "request": "*",
         "request-promise": "*",
         "string-similarity": "*",

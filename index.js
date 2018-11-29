@@ -9,14 +9,14 @@
 
 const Hook = require('nexus-hook').Hook;
 
-module.exports = class WeatherHook extends Hook {
+module.exports = class MovieHook extends Hook {
     /**
      *  @param {Object} intent Object with .name and .confidence
      *  @param {String} text Original phrasing of the user
      *  @param {Callback} complete Completion callback to continue dialog
      */
     process(text, intent, entities, complete){
-        if( intent == "tellMeAbout" ){
+        if( this.isIntent(intent, "tellMeAbout") ){
             if( this.slots['movie'] != undefined ){
                 this.request('GET', 'http://www.omdbapi.com/?apikey=b8212549&t='+this.slots['movie'], {}, (resp) => {
                     if( resp.Response == "True" ){
@@ -61,6 +61,11 @@ module.exports = class WeatherHook extends Hook {
                     platform: {}
                 });
             }
+        }else{
+            complete({
+                answer: this.captions.get('fallback'),
+                platform: {}
+            });
         }
     }
 }

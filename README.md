@@ -4,8 +4,10 @@
 |---|---|
 |Author|Marc Fiedler|
 |Email|dev@blackout.ai|
-|Requires Hook System|>=0.6.2|
+|Requires Hook System|>=0.6.8|
 |State|`BETA`|
+
+![Blackout logo](https://www.blackout.ai/wp-content/uploads/2018/08/logo.png)
 
 # Nexus Hook documentation
 
@@ -23,3 +25,15 @@ After you have successfully installed the hook into your nexusUi, you will be ab
 
 Additional, if present, the A.I. will also fill the provided template with life:
 ![Screenshot1](/img/screenshot2.png?raw=true "Template")
+
+# Tests
+
+`node tests/movies.js `
+
+```
+Movies v1.0.0 loaded
+
+I know a lot about The Hulk: An MTV Movie Special. For example it was filmed in 2003 and has an IMDB rading of 2.8/10.
+
+I know a lot about Stardust. For example it was filmed in 2007 and has an IMDB rading of 7.7/10.
+```
